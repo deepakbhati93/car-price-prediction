@@ -8,7 +8,15 @@ import joblib
 import numpy as np
 import pandas as pd
 import streamlit as st
+import streamlit as st
 
+st.set_page_config(
+    page_title="Car Price Prediction", # Changes the tab title text
+    page_icon="🚗 ",                         # Optional: changes the icon next to the text
+    layout="wide"                          # Optional: sets page width
+)
+
+# Rest of your app code goes below...
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
 SCALER_PATH = os.path.join(BASE_DIR, "scaler.pkl")
