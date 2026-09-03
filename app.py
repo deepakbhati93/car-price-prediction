@@ -12,7 +12,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Car Price Prediction", # Changes the tab title text
-    page_icon="🚗 ",                         # Optional: changes the icon next to the text
+    page_icon=" 🚗 ",                         # Optional: changes the icon next to the text
     layout="wide"                          # Optional: sets page width
 )
 
