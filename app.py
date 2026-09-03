@@ -17,7 +17,6 @@ st.set_page_config(
 )
 
 # Rest of your app code goes below...
-st.title("🚗 Car Price Prediction")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
 SCALER_PATH = os.path.join(BASE_DIR, "scaler.pkl")
